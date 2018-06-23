@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "Atomized/img/:file", "destination": "/img/:file" }
+    { "source": "look-up/img/:file", "destination": "/img/:file" }
   ]
 }
