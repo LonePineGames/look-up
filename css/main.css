@@ -34,7 +34,7 @@ img {
   top: 16px;
   left: 16px;
   color: white;
-  font-size: 400%;
+  font-size: 200%;
 
   font-family: 'Comfortaa', sans-serif;
   color: #426b53;
@@ -46,6 +46,14 @@ img {
 }
 .lone-pine-link img {
   vertical-align: middle;
+}
+@media screen and (max-width: 1200px) {
+  .lone-pine-link {
+    font-size: 100%;
+  }
+  .lone-pine-link img {
+    width: 64px;
+  }
 }
 
 ul {
