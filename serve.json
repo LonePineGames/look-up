@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "look-up/img/:file", "destination": "/img/:file" }
+    { "source": "look-up/img/:file", "destination": "/img/:file" },
+    { "source": "look-up/fonts/:file", "destination": "/fonts/:file" }
   ]
 }

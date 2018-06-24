@@ -1,7 +1,17 @@
+@font-face {
+  font-family: "AdvancedPixel7";
+  src: url("/look-up/fonts/advanced_pixel-7.ttf") format("truetype");
+  /* Credit to Style-7
+   * http://www.styleseven.com/php/get_product.php?product=Advanced%20Pixel%20LCD-7
+   */
+}
+
 body {
   background-image: url('/look-up/img/background.png');
   image-rendering: pixelated;
   margin: 0px;
+  font-family: 'AdvancedPixel7', monospace;
+  font-size: 200%;
 }
 
 img {
@@ -73,6 +83,7 @@ li {
   text-align: center;
   color: white;
   margin: 16px;
+  margin-top: 256px;
 }
 .license a {
   color: white;
